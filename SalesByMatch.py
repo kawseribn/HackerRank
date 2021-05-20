@@ -24,7 +24,7 @@ def sockMerchant(n, ar):
             if ar[i]>=1 and ar[i]<=100:
                 if ar[i] not in checked:
                     checked.append(ar[i])
-                    count_p+=(int(ar.count(ar[i])//2))
+                    count_p+=(int(ar.count(ar[i])/2))
         return count_p
     else:
         return 0
